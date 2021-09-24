@@ -1,0 +1,50 @@
+
+
+.header{
+    background: $color2;
+    width: auto;
+    height: auto;
+    h1{
+        position: relative;
+        display: block;
+        text-align: center;
+        padding: 1em 0 0.5em;
+        color: $color3;
+        font-size: 3em;
+    }
+    h3{
+        position: relative;
+        display: block;
+        text-align: center;
+        padding: 0.3em 0 0.8em;
+        color: $color1;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and ( min-width: 480px) {
+
+    .header{
+        background: $color2;
+        width: auto;
+        height: auto;
+        h1{
+            position: relative;
+            display: block;
+            text-align: center;
+            padding: 1em 0 0.5em;
+            color: $color3;
+            font-size: 4.5em;
+        }
+        h3{
+            position: relative;
+            display: block;
+            text-align: center;
+            padding: 0.3em 0 0.8em;
+            color: $color1;
+            font-size: 1.5em;
+        }
+    }
+    
+}

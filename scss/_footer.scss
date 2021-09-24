@@ -1,0 +1,85 @@
+
+
+.main-footer{
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    .container {
+        .column {
+            padding: 10px;
+            h3 {
+                font-size: 2em;
+            }
+            .img_Logo_Final{
+                height: 10em;
+                border-radius: 50%;
+                border: 2px solid yellow;
+                padding: auto;
+                margin: 0px;
+                
+            }
+            .menu__footer {
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .copy {
+            text-align: center;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and ( min-width: 480px){
+    .main-footer{
+        background: rgb(147, 214, 21);
+        color: white;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 0.8em;
+        .container {
+            .column--33 {
+                position: relative;
+                display: inline-block;
+                width: 32%;
+                padding: 5px;
+                .img_Logo_Final{
+                    height: 10em;
+                    border-radius: 50%;
+                    border: 2px solid yellow;
+                    padding: auto;
+                    margin: 5px;
+                    
+                }
+                h3 {
+                    font-size: 3em;
+                }
+                .column__txt {
+                    font-size: 1.5em;
+                }
+                .link{
+                    font-size: 1.5em;
+                }
+                .menu__footer {
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            .copy {
+                text-align: center;
+                margin: auto;
+                margin-top: 15px;
+                font-size: 1.3em;
+            }
+        }
+    }
+}

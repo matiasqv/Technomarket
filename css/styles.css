@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  background: white;
+}
+
+html body div ul {
+  list-style: none;
+}
+
+html body div ul a {
+  text-decoration: none;
+}
+
+.header {
+  background: #134949;
+  width: auto;
+  height: auto;
+}
+
+.header h1 {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 1em 0 0.5em;
+  color: #dd9a17;
+  font-size: 3em;
+}
+
+.header h3 {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 0.3em 0 0.8em;
+  color: white;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    background: #134949;
+    width: auto;
+    height: auto;
+  }
+  .header h1 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 1em 0 0.5em;
+    color: #dd9a17;
+    font-size: 4.5em;
+  }
+  .header h3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.3em 0 0.8em;
+    color: white;
+    font-size: 1.5em;
+  }
+}
+
+.main-nav {
+  width: 100%;
+  position: relative;
+  z-index: 2000;
+  padding: 10px;
+}
+
+.icon-menu {
+  display: block;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  /* cursor: pointer; */
+  font-size: 2.5em;
+}
+
+.menu {
+  position: absolute;
+  /* top: 60px; */
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 0;
+  /* permire crear la animacion */
+  overflow: hidden;
+  -webkit-transition: height 0.3s linear;
+  transition: height 0.3s linear;
+}
+
+.menu .menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+.menu__link:hover {
+  background: #de423a;
+}
+
+.menu__link--select {
+  background: #de423a;
+}
+
+.mostrar {
+  height: 125px;
+}
+
+.group .container {
+  padding: 20px;
+}
+
+.group .container .column .gallery--img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.group .container .column h3 {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 0.5em;
+  color: black;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.group .container .column p {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 0.5em;
+  color: black;
+  font-size: 1.5em;
+}
+
+@media screen and (min-width: 480px) {
+  .group .container {
+    padding: 15px;
+  }
+  .group .container .column {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+  }
+  .group .container .column .gallery--img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .group .container .column h3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .group .container .column p {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    color: black;
+    font-size: 1.5em;
+  }
+}
+
+.main-footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 0.8em;
+}
+
+.main-footer .container .column {
+  padding: 10px;
+}
+
+.main-footer .container .column h3 {
+  font-size: 2em;
+}
+
+.main-footer .container .column .img_Logo_Final {
+  height: 10em;
+  border-radius: 50%;
+  border: 2px solid yellow;
+  padding: auto;
+  margin: 0px;
+}
+
+.main-footer .container .column .menu__footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-footer .container .copy {
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .main-footer {
+    background: #93d615;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+  }
+  .main-footer .container .column--33 {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    padding: 5px;
+  }
+  .main-footer .container .column--33 .img_Logo_Final {
+    height: 10em;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    padding: auto;
+    margin: 5px;
+  }
+  .main-footer .container .column--33 h3 {
+    font-size: 3em;
+  }
+  .main-footer .container .column--33 .column__txt {
+    font-size: 1.5em;
+  }
+  .main-footer .container .column--33 .link {
+    font-size: 1.5em;
+  }
+  .main-footer .container .column--33 .menu__footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .main-footer .container .copy {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.3em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
