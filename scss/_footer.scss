@@ -88,3 +88,56 @@
         }
     }
 }
+
+@media screen and ( min-width: 980px){
+    .main-footer{
+        background: #222;
+        color: white;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 0.8em;
+        .container {
+            .column--33 {
+                position: relative;
+                display: inline-block;
+                width: 32%;
+                padding: 5px;
+                .img_Logo_Final{
+                    height: 20em;
+                    border-radius: 50%;
+                    border: 2px solid yellow;
+                    padding: auto;
+                    margin: 5px;
+                }
+                h3 {
+                    font-size: 3em;
+                }
+                .column__txt {
+                    font-size: 1.5em;
+                }
+                .link{
+                    font-size: 1.5em;
+                }
+                .menu__footer {
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #column__logo {
+                position: relative;
+                display: inline-flex;
+                justify-content: right;
+                padding-right: 50px;
+            }
+            .copy {
+                text-align: center;
+                margin: auto;
+                margin-top: 15px;
+                font-size: 1.3em;
+            }
+        }
+    }
+}

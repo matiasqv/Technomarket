@@ -231,6 +231,43 @@ html body div ul a {
   }
 }
 
+@media screen and (min-width: 980px) {
+  .group .container {
+    padding: 15px;
+  }
+  .group .container .column {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+  }
+  .group .container .column .gallery--img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .group .container .column h3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    color: black;
+    font-size: 4em;
+    font-weight: bold;
+    top: -120px;
+  }
+  .group .container .column p {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    color: black;
+    font-size: 2em;
+    top: -60px;
+  }
+}
+
 .main-footer {
   background: #222;
   color: white;
@@ -311,6 +348,59 @@ html body div ul a {
         -ms-flex-pack: right;
             justify-content: right;
     padding-right: 10px;
+  }
+  .main-footer .container .copy {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .main-footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+  }
+  .main-footer .container .column--33 {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    padding: 5px;
+  }
+  .main-footer .container .column--33 .img_Logo_Final {
+    height: 20em;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    padding: auto;
+    margin: 5px;
+  }
+  .main-footer .container .column--33 h3 {
+    font-size: 3em;
+  }
+  .main-footer .container .column--33 .column__txt {
+    font-size: 1.5em;
+  }
+  .main-footer .container .column--33 .link {
+    font-size: 1.5em;
+  }
+  .main-footer .container .column--33 .menu__footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .main-footer .container #column__logo {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    padding-right: 50px;
   }
   .main-footer .container .copy {
     text-align: center;
