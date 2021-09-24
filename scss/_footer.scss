@@ -38,7 +38,7 @@
 
 @media screen and ( min-width: 480px){
     .main-footer{
-        background: rgb(147, 214, 21);
+        background: #222;
         color: white;
         padding: 10px;
         padding-top: 10px;
@@ -51,12 +51,11 @@
                 width: 32%;
                 padding: 5px;
                 .img_Logo_Final{
-                    height: 10em;
+                    height: 15em;
                     border-radius: 50%;
                     border: 2px solid yellow;
                     padding: auto;
                     margin: 5px;
-                    
                 }
                 h3 {
                     font-size: 3em;
@@ -73,6 +72,12 @@
                         color: white;
                     }
                 }
+            }
+            #column__logo {
+                position: relative;
+                display: inline-flex;
+                justify-content: right;
+                padding-right: 10px;
             }
             .copy {
                 text-align: center;

@@ -269,7 +269,7 @@ html body div ul a {
 
 @media screen and (min-width: 480px) {
   .main-footer {
-    background: #93d615;
+    background: #222;
     color: white;
     padding: 10px;
     padding-top: 10px;
@@ -283,7 +283,7 @@ html body div ul a {
     padding: 5px;
   }
   .main-footer .container .column--33 .img_Logo_Final {
-    height: 10em;
+    height: 15em;
     border-radius: 50%;
     border: 2px solid yellow;
     padding: auto;
@@ -301,6 +301,16 @@ html body div ul a {
   .main-footer .container .column--33 .menu__footer a {
     text-decoration: none;
     color: white;
+  }
+  .main-footer .container #column__logo {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    padding-right: 10px;
   }
   .main-footer .container .copy {
     text-align: center;
