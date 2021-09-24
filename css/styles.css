@@ -69,6 +69,30 @@ html body div ul a {
   }
 }
 
+@media screen and (min-width: 760px) {
+  .header {
+    background: #134949;
+    width: auto;
+    height: auto;
+  }
+  .header h1 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 1em 0 0.5em;
+    color: #dd9a17;
+    font-size: 6em;
+  }
+  .header h3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.3em 0 0.8em;
+    color: white;
+    font-size: 1.5em;
+  }
+}
+
 .main-nav {
   width: 100%;
   position: relative;
@@ -121,6 +145,24 @@ html body div ul a {
 
 .mostrar {
   height: 125px;
+}
+
+@media screen and (min-width: 760px) {
+  .icon-menu {
+    display: none;
+  }
+  .menu {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: auto;
+  }
+  .menu__item .menu__link {
+    padding: 15px;
+    font-size: 1.5em;
+  }
 }
 
 .group .container {

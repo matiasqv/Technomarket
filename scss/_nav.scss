@@ -53,3 +53,23 @@
 .mostrar {
     height: 125px;
 }
+
+@media screen and ( min-width: 760px) {
+    .icon-menu {
+        display: none;
+    }
+    .menu {
+        position: static;
+        display: flex;
+        height: auto;
+        width: auto;
+
+    }
+    .menu__item {
+        .menu__link {
+            padding: 15px;
+            font-size: 1.5em;
+        }
+    }
+
+}
