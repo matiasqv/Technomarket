@@ -2,16 +2,18 @@
 
 .contact {
     .group__title {
+        justify-content: center;
         color: blue;
+        font-size: 2em;
     }
     .container {
         .contact-information {
             padding: 10px;
             padding-top: 0;
             margin-bottom: 30px;
-            border-bottom: 2px solid #de423A;
+            border-bottom: 2px solid $color2;
             .column__title {
-                color: red;
+                color: $color3;
             }
         }
         
@@ -24,4 +26,23 @@
 .formulario__label, .formulario__input-txt, .formulario__textarea {
     display: block;
     width: 100%;
+}
+.formulario__input-txt {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario__textarea {
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.formulario__btn {
+    background: $color2;
+    color: $color3;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
 }
