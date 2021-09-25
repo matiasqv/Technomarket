@@ -268,7 +268,7 @@ html body div ul a {
   }
 }
 
-.contact h2 {
+.contact .group__title {
   color: blue;
 }
 
@@ -281,6 +281,16 @@ html body div ul a {
 
 .contact .container .contact-information .column__title {
   color: red;
+}
+
+.formulario {
+  padding: 10px;
+  padding-top: 0;
+}
+
+.formulario__label, .formulario__input-txt, .formulario__textarea {
+  display: block;
+  width: 100%;
 }
 
 .main-footer {

@@ -1,7 +1,7 @@
 
 
 .contact {
-    h2 {
+    .group__title {
         color: blue;
     }
     .container {
@@ -17,4 +17,11 @@
         
     }
 }
-
+.formulario {
+    padding: 10px;
+    padding-top: 0;
+}
+.formulario__label, .formulario__input-txt, .formulario__textarea {
+    display: block;
+    width: 100%;
+}
