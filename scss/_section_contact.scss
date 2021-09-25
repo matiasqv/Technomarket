@@ -1,0 +1,20 @@
+
+
+.contact {
+    h2 {
+        color: blue;
+    }
+    .container {
+        .contact-information {
+            padding: 10px;
+            padding-top: 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #de423A;
+            .column__title {
+                color: red;
+            }
+        }
+        
+    }
+}
+
